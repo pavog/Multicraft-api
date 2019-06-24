@@ -67,7 +67,7 @@ public class MulticraftAPI {
             JsonParser parser = new JsonParser();
             JsonObject result = parser.parse(new InputStreamReader(conn.getInputStream())).getAsJsonObject();
 
-            if (!( result.get("success").getAsBoolean())) {
+            if (!(result.get("success").getAsBoolean())) {
                 JsonArray errors = result.get("errors").getAsJsonArray();
                 StringBuilder exc = new StringBuilder();
                 for (JsonElement jsonElement : errors) {
@@ -91,6 +91,4 @@ public class MulticraftAPI {
 
         return DatatypeConverter.printHexBinary(hash).toLowerCase();
     }
-}
-
 }
