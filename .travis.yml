@@ -1,0 +1,11 @@
+language: java
+sudo: false
+jdk:
+  - oraclejdk8
+services: mysql
+install:
+  - mvn test-compile -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+script:
+  - mvn test jacoco:report
+after_success:
+  - mvn coveralls:report
