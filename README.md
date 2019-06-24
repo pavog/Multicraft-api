@@ -10,15 +10,15 @@
 ## Requirements ##
 To use the Multicraft API client, the following things are required:
 
-  + Get a hosted [Multicraft instance](https://www.multicraft.org/site/page/download) 
-  + Create an account on your Multicraft panel.
-  + Check that your Multicraft panel is reachable from your API (in the same network).
-  + Make sure that the API of the Multicraft instance is enabled.
-    + Settings -> Panel configuration
-    + Check if via http://yourpanel.com/api.php
-  + Get your API key (Profile -> API key)
-  + Now you're ready to use the Multicraft API client.
-  + Java >= 8
++ Get a hosted [Multicraft instance](https://www.multicraft.org/site/page/download) 
++ Create an account on your Multicraft panel.
++ Check that your Multicraft panel is reachable from your API (in the same network).
++ Make sure that the API of the Multicraft instance is enabled.
+  + Settings -> Panel configuration
+  + Check if via http://yourpanel.com/api.php
++ Get your API key (Profile -> API key)
++ Now you're ready to use the Multicraft API client.
++ Java >= 8
 
 ## Maven Installation ##
 
@@ -52,10 +52,10 @@ Please change the ``<version>1.0.0-SNAPSHOT</version>`` to the newest version. Y
 ## Manual Installation ##
 If you're not familiar with using maven we've added a JAR file to the releases which you can add manually to your project.
 
-  + Download the ``multicraftapi-X.Y.Z-SNAPSHOT.jar`` from the [latest release page](https://github.com/pavog/Multicraft-api/releases/latest).
-  + Include it in your project in the IDE's settings.
-    + [IntelliJ](https://www.jetbrains.com/help/idea/library.html)
-    + [Eclipse](https://wiki.eclipse.org/FAQ_How_do_I_add_an_extra_library_to_my_project%27s_classpath%3F)
++ Download the ``multicraftapi-X.Y.Z-SNAPSHOT.jar`` from the [latest release page](https://github.com/pavog/Multicraft-api/releases/latest).
++ Include it in your project in the IDE's settings.
+  + [IntelliJ](https://www.jetbrains.com/help/idea/library.html)
+  + [Eclipse](https://wiki.eclipse.org/FAQ_How_do_I_add_an_extra_library_to_my_project%27s_classpath%3F)
 
 ## Getting started ##
 
